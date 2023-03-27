@@ -79,6 +79,7 @@ img {
   display: flex;
   margin-top: 0;
   margin-bottom: 0;
+  padding: 0;
   gap: 40px;
 }
 .header-item {
@@ -127,7 +128,7 @@ img {
   text-align: center;
 }
 .section.hero {
-  padding: 188 0;
+  padding: 188px 0;
 }
 .hero-title {
   margin-top: 0;
@@ -241,8 +242,10 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
+.text-card {
+  padding: 32px 16px;
+}
 .team-name {
-  margin-top: 32px;
   margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
@@ -252,17 +255,16 @@ img {
 }
 .team-text {
   margin-top: 0;
-  margin-bottom: 32px;
 }
 
 /* ------FOOTER------ */
 
 .footer {
   background: var(--main-background-color);
+  padding: 100px 0;
 }
 .footer-logo {
   display: block;
-  padding-top: 100px;
 }
 .footer-accent {
   color: var(--footer-text-color);
@@ -270,7 +272,6 @@ img {
 .footer-text {
   display: block;
   max-width: 264px;
-  padding-bottom: 100px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -338,8 +339,13 @@ img {
 .project-card:nth-child(-n + 3) {
   margin-top: 0;
 }
+.text-card-portfolio {
+  display: block;
+  padding: 32px 16px;
+}
 .project-title {
-  margin: 32px 0 8px 16px;
+  margin: 0 0 8px;
+  padding: 0;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -347,5 +353,7 @@ img {
   color: var(--main-color);
 }
 .project-text {
-  margin: 0 0 0 16px;
+  padding: 0;
+  margin: 0;
+
 }
